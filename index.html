@@ -24,8 +24,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
   <script type="text/javascript" src="assets/js/app.js"></script>
-
-
 </head>
 
 <body>
@@ -37,14 +35,14 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
-        <li><a href="collapsible.html">Section 3</a></li>
+        <li><a href="#contact">Contact</a></li>
         <li><a href="mobile.html">Mobile</a></li>
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Section 1</a></li>
-        <li><a href="badges.html">Section 2</a></li>
-        <li><a href="collapsible.html">Section 3</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="mobile.html">Mobile</a></li
       </ul>
     </div>
   </nav>
@@ -60,8 +58,7 @@
     <div class="parallax"><img src="assets/imgs/room.jpg"></div>
   </div>
   <!-- About Section -->
-  <div id="about">
-    <div class="container">
+  <div id="about" class="container">
       <div class="row">
         <h2 class="section-header center-align">About</h2>
         <center><img class="circle" img src="assets/imgs/dj.jpg" alt="Avatar"></center>
@@ -70,103 +67,103 @@
         <p class "flow-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
           irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official</p>
       </div>
-    </div>
-  </div>
+
   <!-- Skills / Education -->
+
   <div class="container">
     <div class="row">
-      <div class="taco">
-
+      <div class="button">
         <div class="col l6 m12 s12">
           <ul class="collapsible popout" data-collapsible="accordion">
             <ul class="collapsible" data-collapsible="accordion">
               <li>
                 <div class="collapsible-header center-align">Skills</div>
-                <div class="collapsible-body"><span>HTML|CSS|Javascript<br>
-                  <br>jQuery|Angular|Express<br>
-                  <br>Mongoose|Node.js|Git<br>
-                  <br>React.js|Python|MongoDB</span></div>
+                <div class="collapsible-body"><span>HTML | CSS | Javascript<br>
+                  <br>jQuery | Angular | Express<br>
+                  <br>Mongoose | Node.js | Git<br>
+                  <br>React.js | Python | MongoDB</span></div>
               </li>
         </div>
-
         <div class="col l6 m12 s12">
           <ul class="collapsible popout" data-collapsible="accordion">
             <ul class="collapsible" data-collapsible="accordion">
               <li>
                 <div class="collapsible-header center-align">Education</div>
-                <div class="collapsible-body"><span>General Assembly - Web Development
+                <div class="collapsible-body"><span>General Assembly - <br> Web Development
                 <hr>Austin Coding Academy - <br>Web Development
-                <hr>Texas State University - B.S. Technology</span></div>
+                <hr>Texas State University - <br>B.S. Technology</span></div>
               </li>
         </div>
-
       </div>
     </div>
   </div>
+</div>
+
+<div class="container">
+   <div class="divider"></div>
+ </div>
+
   <!-- Projects -->
   <div id="projects" class="container">
-    <h2 class="section-header center">Projects</h2><hr>
-      <div class="row">
+    <h2 class="section-header center">Projects</h2>
+    <hr>
+    <div class="row">
+      <div class="col l4 m8 offset-m2 s12">
+        <div class="card small">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/imgs/time.jpeg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">TimeShare<a href="https://github.com/jamesnsummers/project-02">
+            <i class="fa fa-github"></i> </a><i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4 center-align">TimeShare<i class="material-icons right">close</i></span>
+            <hr>
+            <p>This web application allows users to login using Google Authentication hosted on Firebase to create a unique timeline of memorable or important life events. Users can create, delete, update and view their entire timeline. It uses Express,
+              NodeJS and MongoDB with a React frontend framework to render a personal API.</p>
+          </div>
+        </div>
+      </div>
 
       <div class="col l4 m8 offset-m2 s12">
         <div class="card small">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="assets/imgs/time.jpeg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">TimeShare<a href="https://github.com/jamesnsummers/project-02">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/imgs/tunely.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tunely<a href="https://github.com/DBenav27/tunely-angular">
             <i class="fa fa-github"></i> </a><i class="material-icons right">more_vert</i></span>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4 center-align">TimeShare<i class="material-icons right">close</i></span>
-              <hr>
-              <p>This web application allows users to login using Google Authentication hosted on Firebase to create a unique timeline of memorable or important life events. Users can create, delete, update and view their entire timeline. It uses Express,
-                NodeJS and MongoDB with a React frontend framework to render a personal API.</p>
-            </div>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4 center-align">Tunely<i class="material-icons right">close</i></span>
+            <hr>
+            <p>This application allows you to CRUD album data and song on a single page app (SPA) with MEAN stack.</p>
           </div>
         </div>
-
-        <div class="col l4 m8 offset-m2 s12">
-          <div class="card small">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="assets/imgs/tunely.png">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Tunely<a href="https://github.com/DBenav27/tunely-angular">
-            <i class="fa fa-github"></i> </a><i class="material-icons right">more_vert</i></span>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4 center-align">Tunely<i class="material-icons right">close</i></span>
-              <hr>
-              <p>This application allows you to CRUD album data and song on a single page app (SPA) with MEAN stack.</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col l4 m8 offset-m2 s12">
-          <div class="card small">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="assets/imgs/tictactoe.png">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Tic-Tac-Toe<a href="https://github.com/DBenav27/tic-tac-toe">
-            <i class="fa fa-github"></i> </a><i class="material-icons right">more_vert</i></span>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4 center-align">Tic-Tac-Toe<i class="material-icons right">close</i></span>
-              <hr>
-              <p>One of my 1st apps I created. This funcational game of Tic-Tac-Toe was created using HTML, CSS, JS, jQuery, and Bootstrap!</p>
-            </div>
-          </div>
-        </div>
-
-
       </div>
 
 
+      <div class="col l4 m8 offset-m2 s12">
+        <div class="card small">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/imgs/tictactoe.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Tic-Tac-Toe<a href="https://github.com/DBenav27/tic-tac-toe">
+            <i class="fa fa-github"></i> </a><i class="material-icons right">more_vert</i></span>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4 center-align">Tic-Tac-Toe<i class="material-icons right">close</i></span>
+            <hr>
+            <p>One of my 1st apps I created. This funcational game of Tic-Tac-Toe was created using HTML, CSS, JS, jQuery, and Bootstrap!</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
   <!-- Contact Section -->
+  <div id="contact">
   <div class="parallax-container valign-wrapper">
     <div class="container">
       <div class="row center">
@@ -186,28 +183,16 @@
     <div class="row">
     </div>
   </div>
-
+</div>
   <!-- Footer -->
   <footer class="page-footer blue-grey darken-3">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">DJ Dev</h5>
+
+          <h5 class="link white-text">Links</h5>
           <ul>
-            <li class="grey-text text-lighten-4">PSD to HTML</li>
-            <li class="grey-text text-lighten-4">Updates</li>
-            <li class="grey-text text-lighten-4">Ui/UX</li>
-            <li class="grey-text text-lighten-4">Site Maint.</li>
-            <li class="grey-text text-lighten-4">Hosting</li>
-          </ul>
-        </div>
-        <div class="col-l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
-          <ul>
-            <li><a href="#" class="grey-text text-lighten-3">Services</a></li>
-            <li><a href="#" class="grey-text text-lighten-3">About</a></li>
-            <li><a href="#" class="grey-text text-lighten-3">Work</a></li>
-            <li><a href="#" class="grey-text text-lighten-3">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="mobile.html">Mobile</a></li>
           </ul>
         </div>
       </div>
@@ -215,7 +200,6 @@
     <div class="footer-copyright blue-grey darken-4">
       <div class="container">
         <p>&copy; 2017 Copywright DJ, All Rights Reserved</p>
-        <a href="#" class="grey-text text-lighten-4 right">Privacy Policy</a>
       </div>
     </div>
   </footer>

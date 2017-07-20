@@ -1,5 +1,6 @@
 body {
   min-height: 200vh;
+  background-color: #E9EDF3;
 }
 
 .logo {
@@ -23,7 +24,6 @@ body {
   text-shadow: 1px 1px black;
 }
 
-
 /*cirle size*/
 
 .circle {
@@ -32,9 +32,9 @@ body {
   border-radius: 50%;
 }
 
-.taco {
-  width: 50%;
-  margin-left: 25%;
+.button {
+  width: 60%;
+  margin-left: 20%;
 }
 
 .card .card-image img {
@@ -47,4 +47,12 @@ body {
   bottom: 0;
   width: 100%;
   height: 310px;
+}
+
+a{
+  color: #fff;
+  padding-left: 5%;
+}
+.link{
+  padding-left: 5%;
 }
