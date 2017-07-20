@@ -1,36 +1,38 @@
-body{
+body {
   min-height: 200vh;
 }
 
 .logo {
   font-weight: 300;
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
-.thin-text{
+.thin-text {
   font-weight: 300;
   background: rgba(96, 125, 139, .4);
   padding: 40px;
   border-radius: 10px;
 }
 
-.section-header{
+.section-header {
   font-weight: 300;
 }
 
-.cta{
+.cta {
   font-weight: 300;
   text-shadow: 1px 1px black;
 }
 
-.contact-form{
-  padding-top: 20px;
-}
-
 
 /*cirle size*/
+
 .circle {
   height: 175px;
   width: 175px;
   border-radius: 50%;
+}
+
+.taco {
+  width: 50%;
+  margin-left: 25%;
 }
